@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #BF3633;
+    height: 150px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+    
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: 20px 0 0 40px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.login {
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 15%;
+    text-decoration: none;
+    margin-top: -80px;
+    margin-bottom: 150px;
+}
+
+
+.login a:hover,
+.login p:hover {
+    cursor: pointer;
+    font-size: 21px;
+    text-decoration: underline #000000;
+    transition: 0.4s;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+/*index*/
+
+.home {
+    height: 25px;
+    text-decoration: underline;
+    color: #a52226;
+}
+
+.home:hover {
+    height: 27px;
+    transition: 0.4s;
+}
+
+.principal {
+    text-align: center;
+    margin-top: 240px;
+}
+
+.principal h1 {
+    font-size: 64px;
+}
+
+.principal p {
+    font-size: 24px;
+    color: #828282;
+    margin: 30px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.texto {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.materia_descarte {
+    border-color: #000000;
+    text-align: justify;
+    border: 2px solid #000000;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.cnn {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.sobre_cnn {
+    font-size: 15px;
+    color: #828282;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.texto:hover {
+    color: #828282;
+    transition: 0.4s;
+}
+
+.botao-principal {
+    background-color: #BF3633;
+    border-radius: 7px;
+    padding: 15px;
+    width: 24px;
+    height: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: -440px;
+}
+
+.botao-principal:hover {
+    background-color: #a52226;
+    transition: 0.4s;
+}
+
+.comp_img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+
+.corpo_texto {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 1.3em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*principal*/
+.ecot {
+    color: white;
+}
+/*Baroni Esteve aqui :)*/
+.titulo_principal {
+    margin: 20px;
+    margin-top: 200px;
+    margin-right: 140px;
+    font-size: 56px;
+    display: flex;
+    width: 36%;
+    color: #a52226;
+}
+.mapa1{
+    display: flex;
+    max-width: 99%;
+    min-width: 50%;
+}
+.linhas{
+    min-width: 100%;
+    padding: 20%;
+    margin: 20px;
+    
+}
+.local {
+    height: 2rem;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+.mapa {
+    width: 45%;
+    height: 480px;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.corpo {
+    margin: 20px;
+    display: inline-flex;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    width: 50%;
+    background-color: #BF3633;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #a52226;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lista-locais {
+    font-size: 20px;
+    display: list-item;
+    width: 50%;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #999999;
+    list-style-type: none;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lista-locais a:hover {
+    color: #a52226;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+.container_lista {
+    display: inline-block;
+    text-align: center;
+
+}
+
+/*escola Baroni */
+.titulo2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.local {
+    margin: 70px 55px;
+    color: white;
+}
+
+.missao {
+    background-color: rgb(199, 32, 32);
+    margin: 40px;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+.banner {
+    width: 100%;
+}
+
+.endereço {
+    margin: 10, 25px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 30px;
+}
+
+.copy {
+    color: grey;
+    margin-left: 300px;
+    margin-top: 2.5%;
+
+}
+
+.missao p {
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/*cursos*/
+.curso_imagem img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.curso_imagem p {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.img_curso {
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.imagens {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: -35px;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: 0px;
+}
+
+
+
+footer {
+    background-color: #BF3633;
+    max-height: 220px;
+    width: 100%;
+    color: black;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.flaticon {
+    font-size: 1.5%;
+    margin-top: -20px;
+    transform: rotate(90deg);
+}
+
+.rodape {
+    background-color: #d9d9d9;
+    margin-top: 40px;
+    padding: 2vh;
+    text-align: center;
+}
+
+.rodape img,
+span img {
+    height: 45px;
+    margin: 10px;
+}
+
+.img_curso span img {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.rodape iframe {
+    justify-content: right;
+    width: 35%;
+    height: 280px;
+    margin: 10px;
+}
+/*Baroni esteve aqui :)*/
+h5 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #BF3633;
+    padding: 0%;
+}
+
+footer p,
+h6 {
+    font-size: 100%;
+    text-align: center;
+    background-color: #BF3633;
+    margin-bottom: 0;
+
+}
+footer p{
+    font-size: 18px;
+}
+
+.alunos {
+    text-align: center;
+    background-color: #BF3633;
+
+}
+
+footer {
+    background-color: #BF3633;
+    font-family: "Poppins", Roboto, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h6 {
+    padding: 20px;
+}
+
+.rodape h4 {
+    margin: 10px;
+    font-family: "Poppins", Roboto, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+footer img {
+    width: 150px;
+    background-color: #BF3633;
+    margin: 40px;
+    margin-bottom: -150px;
+
+}
+
+.img_curso {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+#texto_caixa,
+#mais,
+#mais-farm,
+#mais-doc,
+#mais-mark,
+#mais-ads,
+#mais-qui,
+#mais-ves,
+#mais-seg,
+#mais-rh,
+#lerMais {
+    display: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btnLeiaMais {
+    border: none;
+    color: #BF3633;
+    background-color: white;
+}
+
+.LeiaMais {
+    color: black;
+    border: none;
+    background-color: rgb(199, 32, 32);
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+/*Baroni esteve aqui :)*/
+.linhas {
+	width: 1500px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.linhas li {
+    justify-content: center;
+    align-items: center;
+	display: inline-block;
+	text-align: center;
+	width: 97%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.linhas li:active {
+	border-color: #088C19;	
+}
+.linhas li:hover h2 {
+	font-size: 34px;
+}
+.linhas h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.linhas-descricao {
+	font-size: 18px;
+}
+.linhas-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*for tablets*/
+
+    .logo {
+        height: 55%;
+        margin-left: 20px;
+    }
+
+    .img_curso {
+        width: 90%;
+    }
+
+    .login {
+        text-align: right;
+        padding: 20px;
+        padding-top: 35px;
+        font-size: 17px;
+    }
+
+    .rodape iframe {
+        width: 70%;
+        height: 20%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        margin-left: -25px;
+        text-align: justify;
+        padding: 0px;
+    }
+
+    .curso_imagem {
+        align-items: center;
+        width: 90%;
+        padding-left: 70px;
+    }
+
+    .principal h1 {
+        font-size: 40px;
+        margin-top: -140px;
+        padding: -10px;
+    }
+
+    .titulo_principal {
+        font-size: 40px;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 45px;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .comp_img {
+        width: 90%;
+        align-items: center;
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .materia_descarte {
+        margin: 10px;
+        text-align: justify;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+
+    .lista-locais,
+    h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        width: 80%;
+
+    }
+
+    .brasao {
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: -100px;
+    }
+
+    .missao p {
+        font-size: 15px;
+    }
+
+    .missao {
+        margin: 30px;
+        margin-left: 50px;
+    }
+
+    footer img {
+        width: 80px;
+    }
+
+    .alunos {
+        margin-left: 180px;
+        width: 40%;
+    }
+
+    .titulo_principal {
+        width: 30px;
+        margin-left: -10px;
+        font-size: 20px;
+    }
+
+    .mapa {
+        width: 100%;
+        height: 10%;
+        align-items: center;
+        display: contents;
+        margin-left: -100px;
+    }
+
+}
+
+.separa{
+    margin: 10px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
